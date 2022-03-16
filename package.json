@@ -1,0 +1,16 @@
+{
+  "name": "chat",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.pug",
+    "build": "parcel build src/index.pug -d build --public-url ./"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.3.2",
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
