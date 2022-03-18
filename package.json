@@ -2,9 +2,9 @@
   "name": "chat",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.pug",
-    "build": "parcel build src/**/*.pug --dist-dir public",
-    "server": "node ./public/server.js"
+    "start": "node src/server.js ",
+    "build": "parcel build src/**/*.pug --dist-dir public --no-cache",
+    "server": "parcel src/pages/home/modules/errors/error404.pug"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.3.2",
